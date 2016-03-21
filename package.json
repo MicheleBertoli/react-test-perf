@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test:ava": "ava --no-cache ./ava/test/*.spec.js",
-    "test:jest": "jest --no-cache ./jest/test/button.spec.js"
+    "test:ava:10": "ava --no-cache ./ava/test-10/*.spec.js",
+    "test:ava:100": "ava --no-cache ./ava/test-100/*.spec.js",
+    "test:ava:1000": "ava --no-cache ./ava/test-1000/*.spec.js",
+    "test:jest": "jest --no-cache ./jest/test/*.spec.js",
+    "test:jest:10": "jest --no-cache ./jest/test-10/*.spec.js",
+    "test:jest:100": "jest --no-cache ./jest/test-100/*.spec.js",
+    "test:jest:1000": "jest --no-cache ./jest/test-1000/*.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -28,7 +34,7 @@
     ]
   },
   "jest": {
-    "testDirectoryName": "test",
+    "testDirectoryName": "jest",
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react",
       "<rootDir>/node_modules/react-dom",
