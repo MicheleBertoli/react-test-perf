@@ -15,7 +15,11 @@
     "test:mocha": "mocha --compilers js:babel-register ./mocha/test/*.spec.js",
     "test:mocha:10": "mocha --compilers js:babel-register ./mocha/test-10/*.spec.js",
     "test:mocha:100": "mocha --compilers js:babel-register ./mocha/test-100/*.spec.js",
-    "test:mocha:1000": "mocha --compilers js:babel-register ./mocha/test-1000/*.spec.js"
+    "test:mocha:1000": "mocha --compilers js:babel-register ./mocha/test-1000/*.spec.js",
+    "test:tape": "tape -r babel-register ./tape/test/*.spec.js",
+    "test:tape:10": "tape -r babel-register ./tape/test-10/*.spec.js",
+    "test:tape:100": "tape -r babel-register ./tape/test-100/*.spec.js",
+    "test:tape:1000": "tape -r babel-register ./tape/test-1000/*.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -31,7 +35,8 @@
     "mocha": "^2.4.5",
     "react": "^0.14.7",
     "react-addons-test-utils": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "tape": "^4.5.1"
   },
   "ava": {
     "require": [

@@ -26,3 +26,12 @@ N. of tests | Time (s)
 10 | 1.18
 100 | 2.22
 1000 | 9.12
+
+## [tape](https://github.com/substack/tape)
+
+N. of tests | Time (s)
+----------: | -------:
+1 | 1.28
+10 | 1.48
+100 | 2.42
+1000 | 10.2
