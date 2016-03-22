@@ -1,6 +1,13 @@
 # React test runners performance benchmark
 
-## [AVA](https://github.com/sindresorhus/ava)
+We recently introduced Ava in our codebase and we found that the more React
+components we tested, the slower the tests became (`~120s` for one hundred tests).
+So, I created this benchmark to compare the React test runners performance.
+This is far from being scientific and the goal is not to make a ranking.
+There are a lot of wonderful open source tools nowadays and we just have to find
+the right one for our project.
+
+## [Ava](https://github.com/sindresorhus/ava)
 
 N. of tests | Time (s)
 ----------: | -------:
@@ -27,7 +34,7 @@ N. of tests | Time (s)
 100 | 2.22
 1000 | 9.12
 
-## [tape](https://github.com/substack/tape)
+## [Tape](https://github.com/substack/tape)
 
 N. of tests | Time (s)
 ----------: | -------:
