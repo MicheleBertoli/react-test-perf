@@ -2,8 +2,11 @@
 
 We recently introduced Ava in our codebase and we found that the more React
 components we tested, the slower the tests became (`~120s` for one hundred tests).
+
 So, I created this benchmark to compare the React test runners performance.
+
 This is far from being scientific and the goal is not to make a ranking.
+
 There are a lot of wonderful open source tools nowadays and we just have to find
 the right one for our project.
 
